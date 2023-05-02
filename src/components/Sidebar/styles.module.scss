@@ -1,0 +1,19 @@
+@import "./../../assets/_constants.scss";
+@import "./../../assets/colors";
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  right: 0;
+  height: 100%;
+  width: $sidebarWidth;
+  background-color: $primaryBlue;
+  p {
+    color: $white;
+    font-size: 16px;
+    margin: 12px;
+  }
+}

@@ -1,0 +1,15 @@
+@import "./../../assets/_constants.scss";
+@import "./../../assets/_colors";
+
+.header {
+  position: fixed;
+  display: flex;
+
+  width: calc(100% - #{$sidebarWidth});
+  height: $headerHeigth;
+  background-color: $primaryDarkBlue;
+  .btn {
+    color: $white;
+    margin-left: 12px;
+  }
+}

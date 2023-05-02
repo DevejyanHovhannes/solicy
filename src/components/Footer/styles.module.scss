@@ -1,0 +1,18 @@
+@import "./../../assets/_constants.scss";
+@import "./../../assets/colors";
+
+.footer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  bottom: 0;
+  width: calc(100% - #{$sidebarWidth});
+  height: $footerHeigth;
+  background-color: $primaryLigthBlue;
+  color: $white;
+  p {
+    margin-left: 12px;
+  }
+}
